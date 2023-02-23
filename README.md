@@ -14,6 +14,6 @@
 
 
 ---
-[![](https://visitcount.itsvg.in/api?id=tastelessGhoti&icon=5&color=12)]
+[!(https://visitcount.itsvg.in/api?id=tastelessGhoti&icon=5&color=12)]
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
