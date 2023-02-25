@@ -16,7 +16,9 @@
 <img align="right" height="212" src="https://i.pinimg.com/564x/14/10/16/141016307796aa3ee41a8ac323386a1c.jpg"  />
 
 ###
+<h2 align="left">Skills</h2>
 
+###
 <div align="center">
 <img src="https://img.shields.io/badge/Amazon AWS-232F3E?style=for-the-badge&logo=Amazon AWS&logoColor=white">
 <img src="https://img.shields.io/badge/Amazon EC2-FF9900?style=for-the-badge&logo=Amazon EC2&logoColor=white">
@@ -43,11 +45,10 @@
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white">
 <img src="https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=Jenkins&logoColor=white">
 <img src="https://img.shields.io/badge/JetBrains-000000?style=for-the-badge&logo=JetBrains&logoColor=white">
-<img src="https://img.shields.io/badge/JiraJira-0052CC?style=for-the-badge&logo=JiraJira&logoColor=white">
+<img src="https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=JiraJira&logoColor=white">
 <img src="https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jQuery&logoColor=white">
 <img src="https://img.shields.io/badge/JSON-000000?style=for-the-badge&logo=JSON&logoColor=white">
 <img src="https://img.shields.io/badge/JUnit5-25A162?style=for-the-badge&logo=JUnit5&logoColor=white">
-<img src="https://img.shields.io/badge/Kakao-FFCD00?style=for-the-badge&logo=Kakao&logoColor=white">
 <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=Kubernetes&logoColor=white">
 <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=Linux&logoColor=white">
 <img src="https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=MariaDB&logoColor=white">
@@ -70,13 +71,6 @@
 <img src="https://img.shields.io/badge/Visual Studio Code-007ACC?style=for-the-badge&logo=Visual&logoColor=white">
 <img src="https://img.shields.io/badge/VMware-607078?style=for-the-badge&logo=VMware&logoColor=white">
 <img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=Windows&logoColor=white">
-<img src="https://img.shields.io/badge/Ableton Live-000000?style=for-the-badge&logo=Ableton&logoColor=white">
-<img src="https://img.shields.io/badge/AdBlock-F40D12?style=for-the-badge&logo=AdBlock&logoColor=white">
-<img src="https://img.shields.io/badge/Adblock Plus-C70D2C?style=for-the-badge&logo=Adblock&logoColor=white">
-<img src="https://img.shields.io/badge/Adobe After Effects-9999FF?style=for-the-badge&logo=Adobe&logoColor=white">
-<img src="https://img.shields.io/badge/Adobe Premiere Pro-9999FF?style=for-the-badge&logo=Adobe&logoColor=white">
-<img src="https://img.shields.io/badge/Dolby-000000?style=for-the-badge&logo=Dolby&logoColor=white">
-<img src="https://img.shields.io/badge/DuckDuckGo-DE5833?style=for-the-badge&logo=DuckDuckGo&logoColor=white">
 <img src="https://img.shields.io/badge/Google Chrome-4285F4?style=for-the-badge&logo=Google&logoColor=white">
 <img src="https://img.shields.io/badge/Firefox-FF7139?style=for-the-badge&logo=Firefox&logoColor=white">
 <img src="https://img.shields.io/badge/Internet Explorer-0076D6?style=for-the-badge&logo=Internet&logoColor=white">
