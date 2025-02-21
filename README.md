@@ -29,7 +29,7 @@
   </p>
 </details>
 
-<details>
+<details open>
   <summary><strong>✨ Backend</strong></summary>
   <p>
     <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=Spring%20Boot&logoColor=white"/>
@@ -47,7 +47,7 @@
   </p>
 </details>
 
-<details>
+<details open>
   <summary><strong>✨ Frontend</strong></summary>
   <p>
     <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white"/>
@@ -58,7 +58,7 @@
   </p>
 </details>
 
-<details>
+<details open>
   <summary><strong>✨ Databases / Data Stores</strong></summary>
   <p>
     <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/>
@@ -69,7 +69,7 @@
   </p>
 </details>
 
-<details>
+<details open>
   <summary><strong>✨ Infra & DevOps</strong></summary>
   <p>
     <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
@@ -85,7 +85,7 @@
   </p>
 </details>
 
-<details>
+<details open>
   <summary><strong>✨ Search & Logging</strong></summary>
   <p>
     <img src="https://img.shields.io/badge/OpenSearch-005EB8?style=flat-square&logo=opensearch&logoColor=white"/>
@@ -96,7 +96,7 @@
   </p>
 </details>
 
-<details>
+<details open>
   <summary><strong>✨ Monitoring & Testing</strong></summary>
   <p>
     <img src="https://img.shields.io/badge/Datadog-632CA6?style=flat-square&logo=datadog&logoColor=white"/>
@@ -106,7 +106,7 @@
   </p>
 </details>
 
-<details>
+<details open>
   <summary><strong>✨ Security & Authentication</strong></summary>
   <p>
     <img src="https://img.shields.io/badge/OAuth%202.0-4285F4?style=flat-square&logo=oauth&logoColor=white&label=OAuth%202.0"/>
@@ -115,7 +115,7 @@
   </p>
 </details>
 
-<details>
+<details open>
   <summary><strong>✨ Additional Tools & IDEs</strong></summary>
   <p>
     <img src="https://img.shields.io/badge/Lombok-FF4081?style=flat-square&logo=lombok&logoColor=white"/>
