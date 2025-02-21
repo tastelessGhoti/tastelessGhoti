@@ -1,105 +1,117 @@
-<h2 align="left">Hi 👋! My name is ghoti </h2>
+![header](https://capsule-render.vercel.app/api?type=wave&color=auto&height=150&section=header&text=백엔드%20개발자%20Ghoti%20입니다&fontSize=30&fontAlign=50)
 
-###
+<h2 align="center">안녕하세요, 백엔드 개발자 Ghoti입니다.</h2>
+<p align="center">
+  총 <b>4년 11개월</b>간 다양한 현장에서<br>
+  안정성과 확장성을 고려한 백엔드/서버 개발을 담당해왔습니다.<br>
+  <b>문제를 해결하기 위해 무엇이든 최선을 다하는 자세</b>를 바탕으로,<br>
+  Java, Spring, Cloud, Kubernetes, Jenkins 등 다양한 스택을 활용해<br>
+  빠르고 유연한 서비스를 만드는 데 집중하고 있습니다.<br><br>
+  또한, <b>4차 산업혁명 선도 소비재 융합제품 경진대회 KOTRA 사장상</b>을 수상한 경험을 통해<br>
+  혁신적인 아이디어와 팀 협업 역량도 함께 갖추었습니다.
+</p>
+<br>
 
-<br clear="both">
+---
 
+## ⚙️ Tech Stack
+
+### ✨ Language
+<p>
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=java&logoColor=white"/>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
+</p>
+
+### ✨ Backend
+<p>
+  <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=Spring%20Boot&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Spring%20Framework-6DB33F?style=flat-square&logo=Spring&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Spring%20Batch-6DB33F?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Spring%20WebFlux-6DB33F?style=flat-square"/>
+  <img src="https://img.shields.io/badge/MyBatis-E6002D?style=flat-square&logo=MyBatis&logoColor=white"/>
+  <img src="https://img.shields.io/badge/iBATIS-000000?style=flat-square&logoColor=white&label=iBATIS"/>
+  <img src="https://img.shields.io/badge/QueryDSL-0769AD?style=flat-square&logoColor=white&label=QueryDSL"/>
+  <img src="https://img.shields.io/badge/Apache%20Tomcat-F8DC75?style=flat-square&logo=Apache%20Tomcat&logoColor=black"/>
+</p>
+
+### ✨ Frontend
+<p>
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white"/>
+  <img src="https://img.shields.io/badge/JSP-007396?style=flat-square&logo=java&logoColor=white&label=JSP"/>
+  <img src="https://img.shields.io/badge/jQuery-0769AD?style=flat-square&logo=jquery&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Ajax-007396?style=flat-square&logoColor=white&label=Ajax"/>
+  <img src="https://img.shields.io/badge/Thymeleaf-005F0F?style=flat-square&logo=thymeleaf&logoColor=white"/>
+</p>
+
+### ✨ Database
+<p>
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Oracle-F80000?style=flat-square&logo=oracle&logoColor=white"/>
+  <img src="https://img.shields.io/badge/MariaDB-01529E?style=flat-square&logo=mariadb&logoColor=white"/>
+  <img src="https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Amazon%20Aurora-232F3E?style=flat-square&logo=amazon-aws&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white"/>
+</p>
+
+### ✨ Infra & DevOps
+<p>
+  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=Kubernetes&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Amazon%20EC2-232F3E?style=flat-square&logo=amazon-aws&logoColor=white"/>
+  <img src="https://img.shields.io/badge/CentOS-262577?style=flat-square&logo=centos&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black"/>
+  <img src="https://img.shields.io/badge/GitLab-FC6D26?style=flat-square&logo=gitlab&logoColor=white"/>
+  <img src="https://img.shields.io/badge/SVN-809CC9?style=flat-square&logo=subversion&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Gradle-02303A?style=flat-square&logo=gradle&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Maven-C71A36?style=flat-square&logo=apache-maven&logoColor=white"/>
+</p>
+
+### ✨ Monitoring & Testing
+<p>
+  <img src="https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Apache%20JMeter-D22128?style=flat-square&logo=apache-jmeter&logoColor=white"/>
+  <img src="https://img.shields.io/badge/JUnit-25A162?style=flat-square&logo=junit5&logoColor=white"/>
+</p>
+
+### ✨ ETC
+<p>
+  <img src="https://img.shields.io/badge/MiPlatform-0068B5?style=flat-square&logoColor=white&label=MiPlatform"/>
+</p>
+
+---
+
+## 🏆 Awards & Certifications
+
+- **KOTRA 사장상** (2017)  
+  &nbsp;&nbsp;┗ 4차 산업혁명 선도 소비재 융합제품 경진대회 (대한민국 소비재수출대전)  
+- **정보처리산업기사** (필기합격)  
+- **리눅스마스터2급**, **워드프로세서 단일등급**, **정보기기운용기능사**  
+- **ITQ(한글, 파워포인트)**, **인터넷정보관리사2급** 등 다수 자격증 보유
+
+---
+
+## 📊 GitHub Stats
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=onedark&locale=en&hide_border=false&username=tastelessGhoti" height="150" alt="stats graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=onedark&hide_border=false&username=tastelessGhoti" height="84" alt="languages graph"  />
+  <img src="https://github-readme-stats.vercel.app/api?username=tastelessGhoti&show_icons=true&theme=default" height="150" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tastelessGhoti&layout=compact" height="150" />
 </div>
+<br>
 
-###
+---
 
-<br clear="both">
+## 🤝 Contact
+<p align="center">
+  <a href="mailto:peobae@gmail.com">
+    <img src="https://img.shields.io/badge/Email-peobae%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Gmail Badge"/>
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://gamulgamulgamulchi.tistory.com/" target="_blank">
+    <img src="https://img.shields.io/badge/Tech%20Blog-Tistory-000000?style=flat-square&logo=tistory&logoColor=white" alt="Tistory Badge"/>
+  </a>
+</p>
+<p align="center">
+  언제든 편하게 연락 주세요. 함께 성장하는 개발자가 되겠습니다!
+</p>
 
-<img align="right" height="212" src="https://i.pinimg.com/564x/14/10/16/141016307796aa3ee41a8ac323386a1c.jpg"  />
-
-###
-<h2 align="left">Skills</h2>
-
-###
-<div align="center">
-<img src="https://img.shields.io/badge/Amazon AWS-232F3E?style=for-the-badge&logo=Amazon AWS&logoColor=white">
-<img src="https://img.shields.io/badge/Amazon EC2-FF9900?style=for-the-badge&logo=Amazon EC2&logoColor=white">
-<img src="https://img.shields.io/badge/Apache-D22128?style=for-the-badge&logo=Apache&logoColor=white">
-<img src="https://img.shields.io/badge/Apache JMeter-D22128?style=for-the-badge&logo=Apache&logoColor=white">
-<img src="https://img.shields.io/badge/Apache Maven-C71A36?style=for-the-badge&logo=Apache&logoColor=white">
-<img src="https://img.shields.io/badge/Apache Tomcat-F8DC75?style=for-the-badge&logo=Apache&logoColor=white">
-<img src="https://img.shields.io/badge/CentOS-262577?style=for-the-badge&logo=CentOS&logoColor=white">
-<img src="https://img.shields.io/badge/Confluence-172B4D?style=for-the-badge&logo=Confluence&logoColor=white">
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=CSS3&logoColor=white">
-<img src="https://img.shields.io/badge/Datadog-632CA6?style=for-the-badge&logo=Datadog&logoColor=white">
-<img src="https://img.shields.io/badge/Dell-007DB8?style=for-the-badge&logo=Dell&logoColor=white">
-<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=Docker&logoColor=white">
-<img src="https://img.shields.io/badge/Eclipse IDE-2C2255?style=for-the-badge&logo=Eclipse&logoColor=white">
-<img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=Figma&logoColor=white">
-<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=Git&logoColor=white">
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white">
-<img src="https://img.shields.io/badge/GitLab-FC6D26?style=for-the-badge&logo=GitLab&logoColor=white">
-<img src="https://img.shields.io/badge/Gradle-F46800?style=for-the-badge&logo=Gradle&logoColor=white">
-<img src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=Grafana&logoColor=white">
-<img src="https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=Hibernate&logoColor=white">
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=HTML5&logoColor=white">
-<img src="https://img.shields.io/badge/IntelliJ IDEA-000000?style=for-the-badge&logo=IntelliJ&logoColor=white">
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white">
-<img src="https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=Jenkins&logoColor=white">
-<img src="https://img.shields.io/badge/JetBrains-000000?style=for-the-badge&logo=JetBrains&logoColor=white">
-<img src="https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=JiraJira&logoColor=white">
-<img src="https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jQuery&logoColor=white">
-<img src="https://img.shields.io/badge/JSON-000000?style=for-the-badge&logo=JSON&logoColor=white">
-<img src="https://img.shields.io/badge/JUnit5-25A162?style=for-the-badge&logo=JUnit5&logoColor=white">
-<img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=Kubernetes&logoColor=white">
-<img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=Linux&logoColor=white">
-<img src="https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=MariaDB&logoColor=white">
-<img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=MySQL&logoColor=white">
-<img src="https://img.shields.io/badge/OpenJDK-FFFFFF?style=for-the-badge&logo=OpenJDK&logoColor=white">
-<img src="https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=Oracle&logoColor=white">
-<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=PostgreSQL&logoColor=white">
-<img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=Postman&logoColor=white">
-<img src="https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=Prometheus&logoColor=white">
-<img src="https://img.shields.io/badge/Red Hat-EE0000?style=for-the-badge&logo=Red&logoColor=white">
-<img src="https://img.shields.io/badge/Redmine-B32024?style=for-the-badge&logo=Redmine&logoColor=white">
-<img src="https://img.shields.io/badge/SonarLint-CB2029?style=for-the-badge&logo=SonarLint&logoColor=white">
-<img src="https://img.shields.io/badge/SonarQube-4E9BCD?style=for-the-badge&logo=SonarQube&logoColor=white">
-<img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=Spring&logoColor=white">
-<img src="https://img.shields.io/badge/Spring Boot-6DB33F?style=for-the-badge&logo=Spring&logoColor=white">
-<img src="https://img.shields.io/badge/Spring Security-6DB33F?style=for-the-badge&logo=Spring&logoColor=white">
-<img src="https://img.shields.io/badge/Subversion-809CC9?style=for-the-badge&logo=Subversion&logoColor=white">
-<img src="https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=Swagger&logoColor=white">
-<img src="https://img.shields.io/badge/Vim-019733?style=for-the-badge&logo=Vim&logoColor=white">
-<img src="https://img.shields.io/badge/Visual Studio Code-007ACC?style=for-the-badge&logo=Visual&logoColor=white">
-<img src="https://img.shields.io/badge/VMware-607078?style=for-the-badge&logo=VMware&logoColor=white">
-<img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=Windows&logoColor=white">
-<img src="https://img.shields.io/badge/Google Chrome-4285F4?style=for-the-badge&logo=Google&logoColor=white">
-<img src="https://img.shields.io/badge/Firefox-FF7139?style=for-the-badge&logo=Firefox&logoColor=white">
-<img src="https://img.shields.io/badge/Internet Explorer-0076D6?style=for-the-badge&logo=Internet&logoColor=white">
-<img src="https://img.shields.io/badge/Microsoft Edge-0078D7?style=for-the-badge&logo=Microsoft&logoColor=white">
-<img src="https://img.shields.io/badge/Cisco-1BA0D7?style=for-the-badge&logo=Cisco&logoColor=white">
-<img src="https://img.shields.io/badge/Microsoft Excel-217346?style=for-the-badge&logo=Microsoft&logoColor=white">
-<img src="https://img.shields.io/badge/Microsoft Office-D83B01?style=for-the-badge&logo=Microsoft&logoColor=white">
-<img src="https://img.shields.io/badge/Microsoft OneDrive-0078D4?style=for-the-badge&logo=Microsoft&logoColor=white">
-<img src="https://img.shields.io/badge/Microsoft OneNote-7719AA?style=for-the-badge&logo=Microsoft&logoColor=white">
-<img src="https://img.shields.io/badge/Microsoft Outlook-0078D4?style=for-the-badge&logo=Microsoft&logoColor=white">
-<img src="https://img.shields.io/badge/Microsoft PowerPoint-B7472A?style=for-the-badge&logo=Microsoft&logoColor=white">
-<img src="https://img.shields.io/badge/Microsoft Teams-6264A7?style=for-the-badge&logo=Microsoft&logoColor=white">
-<img src="https://img.shields.io/badge/Microsoft Word-2B579A?style=for-the-badge&logo=Microsoft&logoColor=white">
-<img src="https://img.shields.io/badge/Notepad++-90E59A?style=for-the-badge&logo=Notepad++&logoColor=white">
-<img src="https://img.shields.io/badge/Opera-FF1B2D?style=for-the-badge&logo=Opera&logoColor=white">
-<img src="https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=Slack&logoColor=white">
-</div>
-
-###
-
-<br clear="both">
-
-![snake gif](https://github.com/tastelessGhoti/tastelessGhoti/blob/output/github-contribution-grid-snake.svg)
-
-
-###
-
-<div align="center">
-  <img src="https://profile-counter.glitch.me/tastelessGhoti/count.svg?"  />
-</div>
-
-###
+![footer](https://capsule-render.vercel.app/api?type=waving&color=auto&height=100&section=footer)
