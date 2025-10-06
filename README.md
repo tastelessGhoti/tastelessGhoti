@@ -1,157 +1,89 @@
-![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=250&section=header&text=백엔드%20개발자%20Ghoti&fontSize=70&animation=fadeIn&fontAlignY=38&desc=🏆%20KOTRA%20Award%20Winner%20|%205+%20Years%20Experience&descAlignY=55&descAlign=50)
+# 📌 목표
+
+정량 지표를 공개하지 않고도 **채용 담당자가 빠르게 매력을 느끼는** GitHub 프로필과 ATS 친화형 이력서 초안입니다. 그대로 복붙해 쓰거나, 괄호의 자리표시자만 바꿔 사용하세요.
+
+---
+
+## 1) GitHub Profile README (README.md, 그대로 복붙)
+
+```md
+![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=250&section=header&text=백엔드%20개발자%20Ghoti&fontSize=64&animation=fadeIn&fontAlignY=38&desc=Spring%20Boot%20%26%20Security%20%7C%20금융·통신%20도메인%20%7C%205%2B%20Yrs&descAlignY=55&descAlign=50)
 
 <div align="center">
 
-# 안녕하세요, 백엔드 개발자 Ghoti입니다 👋
+# 안녕하세요, 백엔드 개발자 **Ghoti**입니다 👋
 
-**🏆 2017 KOTRA 사상성 수상 | 5년+ 실무 경력 | Spring Boot 전문가**
+**🏆 2017 KOTRA 수상 | 5년+ 실무 | Spring Boot · Security · 운영 가시성**
 
 [![Tech Blog](https://img.shields.io/badge/Tech%20Blog-FF5722?style=for-the-badge&logo=blogger&logoColor=white)](https://gamulgamulgamulchi.tistory.com)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:peobae@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/tastelessGhoti)
 
 </div>
 
 ---
 
-## 💼 Professional Experience
-
-**5년 경력의 백엔드 개발자**로 Java, Spring Framework, Redis 등 최신 기술 스택을 활용해왔습니다.  
-안정성과 확장성을 고려한 백엔드 개발을 담당했으며, 대기업 금융/통신 프로젝트 경험을 보유하고 있습니다.  
-문제를 체결하기 위해 무엇이든 최선을 다하는 자세를 바탕으로, 빠르고 유연한 서비스를 만드는 데 집중하고 있습니다.
+## 🚀 한 줄 소개 (Value Prop)
+Spring Boot 기반 **안정성·보안·성능** 중심 백엔드 엔지니어. 금융/통신 대규모 트래픽 환경에서 **장애 예방**과 **품질 지향 개발 문화** 정착에 강점이 있습니다.
 
 ---
 
-## 🏆 Key Achievements
+## 💼 Experience Highlights
+- **AICC 솔루션 개발 (KT 그룹)**: RSA 기반 인증/로그인 설계·구현, 공통 보안 컴포넌트 고도화, 보안 정책 정합성 강화
+- **GS리테일 CAO/첨부/연동**: RPC 모듈화, 파일첨부 서비스 구축, 대외·내부 연동 안정화 및 운영 편의성 개선
+- **플랫폼 품질/운영**: 모니터링/로그(ELK/OpenSearch), 품질 게이트(SonarQube), 부하테스트(JMeter) 체계화
+- **캐시/배치/도구화**: Ehcache 2→3 마이그레이션 리드, Spring Batch, Excel 자동화 도구 개발
 
-### 🥇 2017 KOTRA 사상성 수상
-- 4차 산업혁명 선도 소비재 출입제품 경진대회 1위
+> *영향 요약: 로그인 관련 CS 감소, 인증 응답 지연 이슈 완화, 배포/장애 대응 리드타임 단축 등 — 내부 지표 비공개.*
 
-- ### 💼 케이티아이에스 (2023.08 ~ 현재, 2020.01 ~ 2021.12)
-- **AICC 솔루션 개발** (2023.08 ~ 현재)
-- - RSA 암호화 기반 로그인 시스템 설계 및 구현
-  - - 보안 강화 및 시스템 안정성 향상
-    - - 신한투자증권 공통 시스템 개발
-      - - KT 솔루션 보안 강화 3.0 개발
-       
-        - **개발팀** (2020.01 ~ 2021.12)
-        - - 유지보수 담당
-          - - POC 및 시연 개발 협력 (WAS/Jenkins/DB)
-           
-            - ### 💼 지엠스아이티팀 (2022.02 ~ 2023.05)
-            - - GS리테일 솔루션리테일 개발
-              - - GS리테일 CAO 시스템 개발
-                - - GS리테일 RPC 연동 모듈화 시스템
-                  - - GS리테일 첨부 서비스 구축
-                   
-                    - ---
+---
 
-                    ## 🛠 Tech Stack
+## 🧩 Representative Projects
+- **Enterprise SSO/Security 모듈 (RSA+Spring Security)** — 공통 인증 흐름 표준화, 보안 정책·토큰 수명 주기 일관성 강화  
+  <sub>주요 포인트: 분리 가능한 보안 모듈, 운영 중단 없는 롤아웃, 감사 추적성 강화</sub>
+- **Ehcache 마이그레이션 툴킷 (2.x → 3.x)** — 레거시 캐시 자산 점검·전환 가이드/코드 제공, 장애 포인트 축소  
+  <sub>주요 포인트: 스키마/구성 자동 점검, 호환 전략, 회귀 위험 저감</sub>
+- **Excel I/O 매핑 자동화** — DB 질의 결과 기반으로 거래코드/인터페이스 ID를 문서화·산출 자동화  
+  <sub>주요 포인트: 템플릿 고정, 열 동적 증가, 운영 문서 최신성 유지</sub>
 
-                    ### 🌟 Languages
-                    ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=java&logoColor=white)
-                    ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-                    ![SQL](https://img.shields.io/badge/SQL-336791?style=flat-square&logo=postgresql&logoColor=white)
+> 실제 저장소 링크를 공개하기 어려우면, README에 설계 요약/의사코드/스크린샷을 넣어 **문제→접근→해결** 흐름만 보여줘도 충분합니다.
 
-                    ### 🌟 Backend
-                    ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=Spring%20Boot&logoColor=white)
-                    ![Spring Framework](https://img.shields.io/badge/Spring%20Framework-6DB33F?style=flat-square&logo=Spring&logoColor=white)
-                    ![Spring Batch](https://img.shields.io/badge/Spring%20Batch-6DB33F?style=flat-square&logo=Spring&logoColor=white)
-                    ![Spring WebFlux](https://img.shields.io/badge/Spring%20WebFlux-6DB33F?style=flat-square&logo=Spring&logoColor=white)
-                    ![JPA](https://img.shields.io/badge/JPA-59666C?style=flat-square&logo=Hibernate&logoColor=white)
-                    ![MyBatis](https://img.shields.io/badge/MyBatis-000000?style=flat-square&logo=MyBatis&logoColor=white)
-                    ![iBATIS](https://img.shields.io/badge/iBATIS-4479A1?style=flat-square)
-                    ![QueryDSL](https://img.shields.io/badge/QueryDSL-0769AD?style=flat-square)
-                    ![Jackson](https://img.shields.io/badge/Jackson-black?style=flat-square)
-                    ![Gson](https://img.shields.io/badge/Gson-black?style=flat-square)
-                    ![Apache Tomcat](https://img.shields.io/badge/Apache%20Tomcat-F8DC75?style=flat-square&logo=Apache%20Tomcat&logoColor=black)
+---
 
-                    ### 🌟 Frontend
-                    ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-                    ![JSP](https://img.shields.io/badge/JSP-007396?style=flat-square)
-                    ![jQuery](https://img.shields.io/badge/jQuery-0769AD?style=flat-square&logo=jquery&logoColor=white)
-                    ![Ajax](https://img.shields.io/badge/Ajax-5A29E4?style=flat-square)
-                    ![Thymeleaf](https://img.shields.io/badge/Thymeleaf-005F0F?style=flat-square&logo=Thymeleaf&logoColor=white)
+## 🧰 Tech Stack (핵심)
+**Langs**: Java, SQL  
+**Backend**: Spring Boot/Framework, Spring Security, Spring Batch, WebFlux, JPA, MyBatis, QueryDSL  
+**Data/Infra**: MySQL/MariaDB/Oracle, Redis, Docker, Kubernetes, Jenkins, Nginx, Apache Tomcat, Argo CD  
+**Ops/Quality**: ELK·OpenSearch, Kibana, SonarQube, JMeter, Datadog
 
-                    ### 🌟 Databases
-                    ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-                    ![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=flat-square&logo=mariadb&logoColor=white)
-                    ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=flat-square&logo=oracle&logoColor=white)
-                    ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
-                    ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+---
 
-                    ### 🌟 DevOps & Infra
-                    ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-                    ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
-                    ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-                    ![GitLab](https://img.shields.io/badge/GitLab-FCA121?style=flat-square&logo=gitlab&logoColor=white)
-                    ![Subversion](https://img.shields.io/badge/Subversion-809CC9?style=flat-square&logo=subversion&logoColor=white)
-                    ![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white)
-                    ![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
-                    ![Zookeeper](https://img.shields.io/badge/Zookeeper-yellow?style=flat-square)
-                    ![Argo CD](https://img.shields.io/badge/Argo%20CD-EF7B4D?style=flat-square&logo=argo&logoColor=white)
+## 📊 GitHub Stats
+<div align="center">
 
-                    ### 🌟 Monitoring & Logging
-                    ![Datadog](https://img.shields.io/badge/Datadog-632CA6?style=flat-square&logo=datadog&logoColor=white)
-                    ![Apache JMeter](https://img.shields.io/badge/Apache%20JMeter-D22128?style=flat-square&logo=Apache%20JMeter&logoColor=white)
-                    ![ELK Stack](https://img.shields.io/badge/ELK%20Stack-005571?style=flat-square&logo=elastic&logoColor=white)
-                    ![SonarQube](https://img.shields.io/badge/SonarQube-4E9BCD?style=flat-square&logo=sonarqube&logoColor=white)
-                    ![OpenSearch](https://img.shields.io/badge/OpenSearch-005EB8?style=flat-square&logo=opensearch&logoColor=white)
-                    ![Solr](https://img.shields.io/badge/Solr-D9411E?style=flat-square&logo=apache%20solr&logoColor=white)
-                    ![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571?style=flat-square&logo=elasticsearch&logoColor=white)
-                    ![Logstash](https://img.shields.io/badge/Logstash-005571?style=flat-square&logo=logstash&logoColor=white)
-                    ![Kibana](https://img.shields.io/badge/Kibana-005571?style=flat-square&logo=kibana&logoColor=white)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=tastelessGhoti&show_icons=true&theme=radical&hide_border=true&count_private=true)
 
-                    ### 🌟 Security
-                    ![OAuth 2.0](https://img.shields.io/badge/OAuth%202.0-3C873A?style=flat-square)
-                    ![JWT](https://img.shields.io/badge/JWT-000000?style=flat-square&logo=JSON%20web%20tokens&logoColor=white)
-                    ![Spring Security](https://img.shields.io/badge/Spring%20Security-6DB33F?style=flat-square&logo=Spring%20Security&logoColor=white)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=tastelessGhoti&layout=compact&theme=radical&hide_border=true)
 
-                    ### 🌟 Tools & IDEs
-                    ![Lombok](https://img.shields.io/badge/Lombok-red?style=flat-square)
-                    ![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ%20IDEA-000000?style=flat-square&logo=intellij-idea&logoColor=white)
-                    ![Eclipse](https://img.shields.io/badge/Eclipse-2C2255?style=flat-square&logo=eclipse&logoColor=white)
-                    ![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white)
-                    ![Spring Tool Suite](https://img.shields.io/badge/Spring%20Tool%20Suite-6DB33F?style=flat-square&logo=spring&logoColor=white)
-                    ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
+</div>
 
-                    ---
+---
 
-                    ## 📊 GitHub Stats
+## 💭 Development Philosophy
+> **더 나은 코드를 통해, 더 많은 가치를**  
+> - 안정성: 예외/회복 시나리오 선제 설계, 운영 가시성  
+> - 확장성: 도메인 경계와 추상화 레벨을 맞춘 유연한 아키텍처  
+> - 협업: PR 템플릿·코드 리뷰 문화, 공통 모듈/가이드 정립  
+> - 학습: 레거시 개선을 통해 팀의 지식 자산화
 
-                    <div align="center">
+---
 
-                    ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=tastelessGhoti&show_icons=true&theme=radical&hide_border=true&count_private=true)
+## 📫 Contact
+<div align="center">
 
-                    ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=tastelessGhoti&layout=compact&theme=radical&hide_border=true)
+[![Tech Blog](https://img.shields.io/badge/Tech_Blog-FF5722?style=for-the-badge&logo=blogger&logoColor=white)](https://gamulgamulgamulchi.tistory.com)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:peobae@gmail.com)
 
-                    </div>
+</div>
 
-                    ---
-
-                    ## 💭 Development Philosophy
-
-                    > *"더 나은 코드를 통해, 더 많은 가치를 만들어내는 개발자"*
-                    >
-                    > - **안정성**: 장애 없는 서비스를 위한 철저한 예외 처리와 모니터링
-                    > - - **확장성**: 미래의 요구사항을 고려한 유연한 아키텍처 설계
-                    >   - - **협업**: 팀원들과의 원활한 소통과 코드 리뷰를 통한 품질 향상
-                    >     - - **학습**: 끊임없는 기술 학습과 적용을 통한 개인 및 팀 성장
-                    >      
-                    >       - ---
-                    >
-                    > ## 📫 Contact
-                    >
-                    > <div align="center">
-
-                    [![Tech Blog](https://img.shields.io/badge/Tech_Blog-FF5722?style=for-the-badge&logo=blogger&logoColor=white)](https://gamulgamulgamulchi.tistory.com)
-                    [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:peobae@gmail.com)
-
-                    ### 📈 Profile Views
-
-                    ![Visitor Count](https://profile-counter.glitch.me/tastelessGhoti/count.svg)
-
-                    **언제든 연락 주세요. 함께 성장하는 개발자가 되겠습니다! 🚀**
-
-                    </div>
-
-                    ![footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=100&section=footer)
+![footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=100&section=footer)
