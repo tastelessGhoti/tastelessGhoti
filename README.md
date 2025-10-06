@@ -1,8 +1,6 @@
 ![header](https://capsule-render.vercel.app/api?type=wave&color=auto&height=150&section=header&text=백엔드%20개발자%20Ghoti&fontSize=30&fontAlign=50)
 
-<p align="center">
-  <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FGhoti%2Freadme&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false"/>
-</p>
+
 
 <h2 align="center">안녕하세요, 백엔드 개발자 Ghoti입니다 <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28"></h2>
 <p align="center">
@@ -148,7 +146,7 @@
   </a>
 </p>
 <p align="center">
-  언제든 편하게 연락 주세요. 함께 성장하는 개발자가 되겠습니다! 🚀
+  언제든 편하게 연락 주세요. 함께 성장하는 개발자가 되겠습니다!
 </p>
 
 ![footer](https://capsule-render.vercel.app/api?type=waving&color=auto&height=100&section=footer)
