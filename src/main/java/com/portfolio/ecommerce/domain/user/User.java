@@ -9,9 +9,14 @@ import lombok.NoArgsConstructor;
 
 /**
  * 사용자 엔티티
+ * 인덱스 최적화: email, status, createdAt
  */
 @Entity
-@Table(name = "users")
+@Table(name = "users", indexes = {
+    @Index(name = "idx_user_email", columnList = "email", unique = true),
+    @Index(name = "idx_user_status", columnList = "status"),
+    @Index(name = "idx_user_created_at", columnList = "createdAt")
+})
 @Getter
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
 public class User extends BaseEntity {

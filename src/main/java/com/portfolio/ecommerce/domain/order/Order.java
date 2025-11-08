@@ -17,9 +17,15 @@ import java.util.List;
 
 /**
  * 주문 엔티티
+ * 인덱스 최적화: user_id, status, createdAt (주문 조회 성능 향상)
  */
 @Entity
-@Table(name = "orders")
+@Table(name = "orders", indexes = {
+    @Index(name = "idx_order_user_id", columnList = "user_id"),
+    @Index(name = "idx_order_status", columnList = "status"),
+    @Index(name = "idx_order_user_status", columnList = "user_id, status"),
+    @Index(name = "idx_order_created_at", columnList = "createdAt")
+})
 @Getter
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
 public class Order extends BaseEntity {

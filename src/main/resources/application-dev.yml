@@ -1,0 +1,28 @@
+# 개발 환경 설정
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true
+        use_sql_comments: true
+        default_batch_fetch_size: 100  # N+1 문제 해결
+    show-sql: true
+
+  h2:
+    console:
+      enabled: true  # 개발 환경에서만 활성화
+      path: /h2-console
+
+  devtools:
+    restart:
+      enabled: true
+
+# 로깅 설정 (개발 환경)
+logging:
+  level:
+    com.portfolio.ecommerce: DEBUG
+    org.hibernate.SQL: DEBUG
+    org.hibernate.type.descriptor.sql.BasicBinder: TRACE
+    org.springframework.security: DEBUG

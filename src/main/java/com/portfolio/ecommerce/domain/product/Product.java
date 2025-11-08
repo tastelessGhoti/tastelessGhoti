@@ -13,9 +13,16 @@ import java.math.BigDecimal;
 
 /**
  * 상품 엔티티
+ * 인덱스 최적화: category, status, name (검색), createdAt
  */
 @Entity
-@Table(name = "products")
+@Table(name = "products", indexes = {
+    @Index(name = "idx_product_category", columnList = "category"),
+    @Index(name = "idx_product_status", columnList = "status"),
+    @Index(name = "idx_product_category_status", columnList = "category, status"),
+    @Index(name = "idx_product_name", columnList = "name"),
+    @Index(name = "idx_product_created_at", columnList = "createdAt")
+})
 @Getter
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
 public class Product extends BaseEntity {
