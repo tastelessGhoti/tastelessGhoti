@@ -1,0 +1,37 @@
+version: '3.8'
+
+services:
+  mysql:
+    image: mysql:8.0
+    container_name: bookverse-mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: bookverse
+      MYSQL_USER: bookverse
+      MYSQL_PASSWORD: bookverse123
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql-data:/var/lib/mysql
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+    command: --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci
+    networks:
+      - bookverse-network
+
+  redis:
+    image: redis:7-alpine
+    container_name: bookverse-redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis-data:/data
+    networks:
+      - bookverse-network
+
+volumes:
+  mysql-data:
+  redis-data:
+
+networks:
+  bookverse-network:
+    driver: bridge
