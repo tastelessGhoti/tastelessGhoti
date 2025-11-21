@@ -7,22 +7,39 @@ scrape_configs:
   - job_name: 'chat-search-api'
     metrics_path: '/actuator/prometheus'
     static_configs:
+      # Docker Compose 환경에서는 서비스명 사용
+      # 로컬 개발 시: localhost:8080
+      - targets: ['chat-search-api:8080']
+        labels:
+          application: 'chat-search-api'
+          environment: 'docker'
       - targets: ['host.docker.internal:8080']
         labels:
           application: 'chat-search-api'
+          environment: 'local'
 
   # Chat Search Indexer 모니터링
   - job_name: 'chat-search-indexer'
     metrics_path: '/actuator/prometheus'
     static_configs:
+      - targets: ['chat-search-indexer:8081']
+        labels:
+          application: 'chat-search-indexer'
+          environment: 'docker'
       - targets: ['host.docker.internal:8081']
         labels:
           application: 'chat-search-indexer'
+          environment: 'local'
 
   # Chat Search Batch 모니터링
   - job_name: 'chat-search-batch'
     metrics_path: '/actuator/prometheus'
     static_configs:
+      - targets: ['chat-search-batch:8082']
+        labels:
+          application: 'chat-search-batch'
+          environment: 'docker'
       - targets: ['host.docker.internal:8082']
         labels:
           application: 'chat-search-batch'
+          environment: 'local'
