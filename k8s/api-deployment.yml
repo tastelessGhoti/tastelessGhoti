@@ -1,0 +1,86 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: chat-search-api
+  labels:
+    app: chat-search-api
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: chat-search-api
+  template:
+    metadata:
+      labels:
+        app: chat-search-api
+    spec:
+      containers:
+      - name: chat-search-api
+        image: chat-search-api:1.0.0
+        ports:
+        - containerPort: 8080
+        env:
+        - name: SPRING_PROFILES_ACTIVE
+          value: "prod"
+        - name: SPRING_DATASOURCE_URL
+          valueFrom:
+            configMapKeyRef:
+              name: chat-search-config
+              key: database.url
+        - name: SPRING_DATASOURCE_USERNAME
+          valueFrom:
+            secretKeyRef:
+              name: chat-search-secret
+              key: database.username
+        - name: SPRING_DATASOURCE_PASSWORD
+          valueFrom:
+            secretKeyRef:
+              name: chat-search-secret
+              key: database.password
+        - name: SPRING_KAFKA_BOOTSTRAP_SERVERS
+          valueFrom:
+            configMapKeyRef:
+              name: chat-search-config
+              key: kafka.bootstrap-servers
+        - name: SPRING_ELASTICSEARCH_URIS
+          valueFrom:
+            configMapKeyRef:
+              name: chat-search-config
+              key: elasticsearch.uris
+        - name: SPRING_DATA_REDIS_HOST
+          valueFrom:
+            configMapKeyRef:
+              name: chat-search-config
+              key: redis.host
+        resources:
+          requests:
+            memory: "512Mi"
+            cpu: "500m"
+          limits:
+            memory: "1Gi"
+            cpu: "1000m"
+        livenessProbe:
+          httpGet:
+            path: /actuator/health
+            port: 8080
+          initialDelaySeconds: 30
+          periodSeconds: 10
+        readinessProbe:
+          httpGet:
+            path: /actuator/health
+            port: 8080
+          initialDelaySeconds: 20
+          periodSeconds: 5
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: chat-search-api
+spec:
+  type: LoadBalancer
+  selector:
+    app: chat-search-api
+  ports:
+  - protocol: TCP
+    port: 80
+    targetPort: 8080

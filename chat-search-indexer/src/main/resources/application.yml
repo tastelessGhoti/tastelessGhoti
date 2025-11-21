@@ -1,0 +1,46 @@
+spring:
+  application:
+    name: chat-search-indexer
+
+  # Kafka 설정
+  kafka:
+    bootstrap-servers: localhost:9092
+    consumer:
+      group-id: chat-search-indexer
+      auto-offset-reset: earliest
+      enable-auto-commit: true
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+
+  # ElasticSearch 설정
+  elasticsearch:
+    uris: http://localhost:9200
+    username:
+    password:
+
+# Kafka Topic 설정
+kafka:
+  topic:
+    message-events: message-events
+    message-batch: message-batch
+
+# Actuator 설정 (모니터링)
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,prometheus,metrics
+  metrics:
+    export:
+      prometheus:
+        enabled: true
+
+# 로깅 설정
+logging:
+  level:
+    root: INFO
+    com.chatsearch: DEBUG
+    org.apache.kafka: WARN
+    org.elasticsearch: WARN
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n"

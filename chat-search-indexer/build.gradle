@@ -1,0 +1,21 @@
+dependencies {
+    // Modules
+    implementation project(':chat-search-common')
+    implementation project(':chat-search-domain')
+
+    // Spring Boot
+    implementation 'org.springframework.boot:spring-boot-starter'
+
+    // Kafka
+    implementation 'org.springframework.kafka:spring-kafka'
+
+    // ElasticSearch
+    implementation 'org.springframework.boot:spring-boot-starter-data-elasticsearch'
+
+    // Actuator
+    implementation 'org.springframework.boot:spring-boot-starter-actuator'
+    implementation 'io.micrometer:micrometer-registry-prometheus'
+
+    // Test
+    testImplementation 'org.springframework.kafka:spring-kafka-test'
+}

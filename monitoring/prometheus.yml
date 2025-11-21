@@ -1,0 +1,28 @@
+global:
+  scrape_interval: 15s
+  evaluation_interval: 15s
+
+scrape_configs:
+  # Chat Search API 모니터링
+  - job_name: 'chat-search-api'
+    metrics_path: '/actuator/prometheus'
+    static_configs:
+      - targets: ['host.docker.internal:8080']
+        labels:
+          application: 'chat-search-api'
+
+  # Chat Search Indexer 모니터링
+  - job_name: 'chat-search-indexer'
+    metrics_path: '/actuator/prometheus'
+    static_configs:
+      - targets: ['host.docker.internal:8081']
+        labels:
+          application: 'chat-search-indexer'
+
+  # Chat Search Batch 모니터링
+  - job_name: 'chat-search-batch'
+    metrics_path: '/actuator/prometheus'
+    static_configs:
+      - targets: ['host.docker.internal:8082']
+        labels:
+          application: 'chat-search-batch'
