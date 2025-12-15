@@ -1,157 +1,215 @@
-![header](https://capsule-render.vercel.app/api?type=wave&color=auto&height=150&section=header&text=백엔드%20개발자%20Ghoti&fontSize=30&fontAlign=50)
+# Payment Gateway
 
-<h2 align="center">안녕하세요, 백엔드 개발자 Ghoti입니다 <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28"></h2>
-<p align="center">
-  총 <b>5년 8개월</b>간 다양한 현장에서<br>
-  <b>금융권 AI 챗봇 시스템과 MSA 기반 엔터프라이즈 플랫폼</b> 개발을 담당해왔습니다.<br>
-  <b>문제를 해결하기 위해 무엇이든 최선을 다하는 자세</b>를 바탕으로,<br>
-  Java, Spring, Redis, Kubernetes, WebFlux 등 다양한 스택을 활용해<br>
-  안정적이고 확장 가능한 서비스를 만드는 데 집중하고 있습니다.<br><br>
-  <b>🏆 주요 성과</b><br>
-  • 경남은행 AI 챗봇: 6개월간 <b>293개 커밋, 92,460 라인</b> 기여<br>
-  • Redis 캐싱으로 API 응답시간 <b>43% 개선</b> (832ms → 475ms)<br>
-  • <b>KOTRA 사장상</b> 수상 (4차 산업혁명 선도 소비재 융합제품 경진대회)<br><br>
-  <em>"더 나은 코드를 통해, 더 많은 가치를 만들어내는 개발자"</em>를 지향합니다.
-</p>
+> 파트너사를 위한 결제 승인/취소/매입 처리 API 게이트웨이 서비스
 
----
+## 개요
 
-## 🛠️ Tech & Tools
+대규모 트랜잭션을 안정적으로 처리하고, 데이터 정합성을 보장하는 결제 시스템입니다.
+분산 환경에서의 동시성 제어, 멱등성 보장, VAN사 연동 추상화를 통해 안정적인 결제 서비스를 제공합니다.
 
-<details open>
-  <summary><strong>✨ Languages</strong></summary>
-  <p>
-    <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white"/>
-    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
-    <img src="https://img.shields.io/badge/SQL-336791?style=flat-square&logo=postgresql&logoColor=white"/>
-  </p>
-</details>
+### 핵심 기능
 
-<details open>
-  <summary><strong>✨ Backend</strong></summary>
-  <p>
-    <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=Spring%20Boot&logoColor=white"/>
-    <img src="https://img.shields.io/badge/Spring%20Framework-6DB33F?style=flat-square&logo=Spring&logoColor=white"/>
-    <img src="https://img.shields.io/badge/Spring%20WebFlux-6DB33F?style=flat-square&logo=Spring&logoColor=white"/>
-    <img src="https://img.shields.io/badge/Spring%20Batch-6DB33F?style=flat-square&logo=Spring&logoColor=white"/>
-    <img src="https://img.shields.io/badge/Spring%20Security-6DB33F?style=flat-square&logo=Spring%20Security&logoColor=white"/>
-    <img src="https://img.shields.io/badge/Spring%20Data%20JPA-6DB33F?style=flat-square&logo=Spring&logoColor=white"/>
-    <img src="https://img.shields.io/badge/Hibernate-59666C?style=flat-square&logo=Hibernate&logoColor=white"/>
-    <img src="https://img.shields.io/badge/MyBatis-000000?style=flat-square&logoColor=white"/>
-    <img src="https://img.shields.io/badge/QueryDSL-0769AD?style=flat-square&logoColor=white"/>
-    <img src="https://img.shields.io/badge/Apache%20Tomcat-F8DC75?style=flat-square&logo=Apache%20Tomcat&logoColor=black"/>
-  </p>
-</details>
+- **결제 승인/취소**: 카드 결제 승인 및 전체/부분 취소 지원
+- **멱등성 보장**: Redis 기반 멱등성 키 관리로 중복 결제 방지
+- **분산 락**: Redisson 기반 분산 락으로 동시성 이슈 해결
+- **VAN사 연동**: 외부 결제 대행사 연동 추상화 계층
+- **정산 배치**: 가맹점별 일자별 정산 데이터 집계
+- **대사(Reconciliation)**: 내부/외부 데이터 정합성 검증
 
-<details open>
-  <summary><strong>✨ Frontend</strong></summary>
-  <p>
-    <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white"/>
-    <img src="https://img.shields.io/badge/JSP-007396?style=flat-square&logo=java&logoColor=white"/>
-    <img src="https://img.shields.io/badge/jQuery-0769AD?style=flat-square&logo=jquery&logoColor=white"/>
-    <img src="https://img.shields.io/badge/Ajax-007396?style=flat-square&logoColor=white"/>
-    <img src="https://img.shields.io/badge/Thymeleaf-005F0F?style=flat-square&logo=thymeleaf&logoColor=white"/>
-  </p>
-</details>
+## 기술 스택
 
-<details open>
-  <summary><strong>✨ Databases & Cache</strong></summary>
-  <p>
-    <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/>
-    <img src="https://img.shields.io/badge/MariaDB-003545?style=flat-square&logo=mariadb&logoColor=white"/>
-    <img src="https://img.shields.io/badge/Oracle-F80000?style=flat-square&logo=oracle&logoColor=white"/>
-    <img src="https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white"/>
-    <img src="https://img.shields.io/badge/Amazon%20Aurora-527FFF?style=flat-square&logo=amazon-rds&logoColor=white"/>
-    <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white"/>
-  </p>
-</details>
+| 구분 | 기술 |
+|------|------|
+| **Backend** | Java 17, Spring Boot 3.2, Spring Data JPA |
+| **Database** | MySQL 8.x, Redis |
+| **Messaging** | Apache Kafka |
+| **Query** | QueryDSL |
+| **Batch** | Spring Batch |
+| **Test** | JUnit 5, Mockito, Testcontainers |
+| **Infra** | Docker, Docker Compose |
+| **Docs** | Swagger (springdoc-openapi) |
 
-<details open>
-  <summary><strong>✨ Infra & DevOps</strong></summary>
-  <p>
-    <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=Kubernetes&logoColor=white"/>
-    <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
-    <img src="https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white"/>
-    <img src="https://img.shields.io/badge/Amazon%20EC2-FF9900?style=flat-square&logo=amazon-ec2&logoColor=white"/>
-    <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white"/>
-    <img src="https://img.shields.io/badge/GitLab-FC6D26?style=flat-square&logo=gitlab&logoColor=white"/>
-    <img src="https://img.shields.io/badge/SVN-809CC9?style=flat-square&logo=subversion&logoColor=white"/>
-    <img src="https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white"/>
-    <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black"/>
-    <img src="https://img.shields.io/badge/CentOS-262577?style=flat-square&logo=centos&logoColor=white"/>
-  </p>
-</details>
+## 아키텍처
 
-<details open>
-  <summary><strong>✨ Search & Logging</strong></summary>
-  <p>
-    <img src="https://img.shields.io/badge/OpenSearch-005EB8?style=flat-square&logo=opensearch&logoColor=white"/>
-    <img src="https://img.shields.io/badge/Elasticsearch-005571?style=flat-square&logo=elasticsearch&logoColor=white"/>
-    <img src="https://img.shields.io/badge/Logstash-005571?style=flat-square&logo=logstash&logoColor=white"/>
-    <img src="https://img.shields.io/badge/Kibana-005571?style=flat-square&logo=kibana&logoColor=white"/>
-  </p>
-</details>
+```mermaid
+graph TB
+    subgraph Client
+        A[Partner API Client]
+    end
 
-<details open>
-  <summary><strong>✨ Monitoring & Testing</strong></summary>
-  <p>
-    <img src="https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white"/>
-    <img src="https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white"/>
-    <img src="https://img.shields.io/badge/Apache%20JMeter-D22128?style=flat-square&logo=apache&logoColor=white"/>
-    <img src="https://img.shields.io/badge/JUnit-25A162?style=flat-square&logo=junit5&logoColor=white"/>
-  </p>
-</details>
+    subgraph API Layer
+        B[Payment Controller]
+    end
 
-<details open>
-  <summary><strong>✨ Build Tools & IDEs</strong></summary>
-  <p>
-    <img src="https://img.shields.io/badge/Gradle-02303A?style=flat-square&logo=gradle&logoColor=white"/>
-    <img src="https://img.shields.io/badge/Maven-C71A36?style=flat-square&logo=apache-maven&logoColor=white"/>
-    <img src="https://img.shields.io/badge/IntelliJ%20IDEA-000000?style=flat-square&logo=IntelliJ%20IDEA&logoColor=white"/>
-    <img src="https://img.shields.io/badge/Eclipse-2C2255?style=flat-square&logo=Eclipse&logoColor=white"/>
-    <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white"/>
-  </p>
-</details>
+    subgraph Service Layer
+        C[Payment Service]
+        D[Settlement Service]
+        E[Reconciliation Service]
+    end
 
+    subgraph Infrastructure
+        F[VAN Client Factory]
+        G[Redis - Lock/Cache]
+        H[Kafka Producer]
+    end
 
----
+    subgraph External
+        I[VAN - NICE/KIS]
+    end
 
-## 🏆 Awards & Certifications
+    subgraph Data
+        J[(MySQL)]
+    end
 
-### 🥇 수상
-- **KOTRA 사장상** (2017)  
-  └ 4차 산업혁명 선도 소비재 융합제품 경진대회 (대한민국 소비재수출대전)
+    A --> B
+    B --> C
+    C --> F
+    C --> G
+    C --> H
+    C --> J
+    F --> I
+    D --> J
+    E --> J
+```
 
-### 📜 자격증
-| 자격증 | 취득일 | 발급기관 |
-|--------|--------|----------|
-| 정보처리산업기사 (필기) | 2018.05 | 한국산업인력공단 |
-| 정보기기운용기능사 | 2016.11 | 한국산업인력공단 |
-| 워드프로세서 단일등급 | 2014.08 | 대한상공회의소 |
-| 리눅스마스터 2급 | 2014.07 | 한국정보통신인력개발센터 |
-| 인터넷정보관리사 2급 | 2014.07 | 한국정보통신인력개발센터 |
-| ITQ (한글, 파워포인트) | 2012 | 한국생산성본부 |
+### 주요 설계 결정
 
----
+1. **분산 락을 통한 동시성 제어**
+   - 동일 결제 건에 대한 동시 요청 방지
+   - Redisson 기반 락으로 분산 환경 지원
 
-## 🤝 Contact
+2. **멱등성 보장**
+   - 클라이언트 제공 멱등성 키로 중복 요청 필터링
+   - Redis TTL을 활용한 키 자동 만료
 
-<p align="center">
-  <a href="mailto:peobae@gmail.com">
-    <img src="https://img.shields.io/badge/Email-peobae%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Gmail Badge"/>
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://gamulgamulgamulchi.tistory.com/" target="_blank">
-    <img src="https://img.shields.io/badge/Tech%20Blog-Tistory-000000?style=flat-square&logo=tistory&logoColor=white" alt="Tistory Badge"/>
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://github.com/tastelessGhoti" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-tastelessGhoti-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub Badge"/>
-  </a>
-</p>
+3. **VAN사 연동 추상화**
+   - Strategy 패턴으로 다양한 VAN사 지원
+   - Factory 패턴으로 런타임 VAN 선택
 
-<p align="center">
-  언제든 편하게 연락 주세요. 함께 성장하는 개발자가 되겠습니다!
-</p>
+4. **이벤트 기반 아키텍처**
+   - Kafka를 통한 비동기 이벤트 발행
+   - 결제/취소 이벤트의 느슨한 결합
 
-![footer](https://capsule-render.vercel.app/api?type=waving&color=auto&height=100&section=footer)
+## 실행 방법
+
+### 사전 요구사항
+
+- JDK 17+
+- Docker & Docker Compose
+- Gradle 8.x
+
+### 로컬 환경 실행
+
+```bash
+# 인프라 컨테이너 실행
+docker-compose up -d
+
+# 애플리케이션 실행
+./gradlew bootRun
+
+# 테스트 실행
+./gradlew test
+```
+
+### Docker Compose 실행
+
+```bash
+docker-compose up -d
+```
+
+## API 문서
+
+애플리케이션 실행 후 Swagger UI에서 확인:
+- http://localhost:8080/api/swagger-ui.html
+
+### 주요 API
+
+| Method | Endpoint | 설명 |
+|--------|----------|------|
+| POST | `/v1/payments/approve` | 결제 승인 |
+| POST | `/v1/payments/cancel` | 결제 취소 |
+| GET | `/v1/payments/{transactionId}` | 결제 상세 조회 |
+| GET | `/v1/payments` | 결제 목록 조회 |
+
+### 요청 예시
+
+**결제 승인**
+```bash
+curl -X POST http://localhost:8080/api/v1/payments/approve \
+  -H "Content-Type: application/json" \
+  -H "X-Merchant-Id: M20231201001" \
+  -d '{
+    "orderId": "ORD-2024-001",
+    "amount": 50000,
+    "paymentMethod": "CARD",
+    "cardNumber": "9410123456789012",
+    "expiryDate": "1226",
+    "installmentMonths": 0,
+    "productName": "테스트 상품",
+    "buyerName": "홍길동"
+  }'
+```
+
+**결제 취소**
+```bash
+curl -X POST http://localhost:8080/api/v1/payments/cancel \
+  -H "Content-Type: application/json" \
+  -H "X-Merchant-Id: M20231201001" \
+  -d '{
+    "transactionId": "TXN20241215001234",
+    "cancelAmount": 20000,
+    "cancelReason": "고객 요청"
+  }'
+```
+
+## 프로젝트 구조
+
+```
+src/main/java/com/paygate/payment/
+├── common/                     # 공통 모듈
+│   ├── exception/              # 예외 처리
+│   ├── response/               # API 응답 포맷
+│   └── util/                   # 유틸리티
+├── config/                     # 설정
+│   ├── JpaConfig.java
+│   ├── RedisConfig.java
+│   ├── KafkaConfig.java
+│   └── BatchConfig.java
+├── domain/                     # 도메인
+│   ├── payment/                # 결제 도메인
+│   │   ├── controller/
+│   │   ├── service/
+│   │   ├── repository/
+│   │   ├── dto/
+│   │   └── entity/
+│   ├── merchant/               # 가맹점 도메인
+│   └── settlement/             # 정산 도메인
+└── infrastructure/             # 인프라
+    ├── van/                    # VAN사 연동
+    ├── kafka/                  # Kafka 연동
+    └── redis/                  # Redis 연동
+```
+
+## 테스트
+
+```bash
+# 전체 테스트
+./gradlew test
+
+# 단위 테스트만
+./gradlew test --tests "com.paygate.payment.unit.*"
+
+# 통합 테스트만
+./gradlew test --tests "com.paygate.payment.integration.*"
+```
+
+## 향후 개선 계획
+
+- [ ] Spring WebFlux 기반 리액티브 마이그레이션
+- [ ] 분산 트랜잭션 처리 (Saga 패턴)
+- [ ] API Rate Limiting
+- [ ] 결제 대시보드 UI
+
+## 라이선스
+
+This project is licensed under the MIT License.
