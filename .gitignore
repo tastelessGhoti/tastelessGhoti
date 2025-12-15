@@ -1,0 +1,49 @@
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.project
+.classpath
+.settings/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Test
+test-output/
+
+# Application
+application-local.yml
+application-prod.yml
+*.env
+
+# Compiled
+*.class
+*.jar
+*.war
+*.ear
+
+# Package Files
+*.tar.gz
+*.rar
+
+# QueryDSL
+src/main/generated/
+
+# Docker
+docker-compose.override.yml
