@@ -2,7 +2,7 @@
 
 <h2 align="center">안녕하세요, 백엔드 개발자 Ghoti입니다 <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28"></h2>
 <p align="center">
-  총 <b>5년 8개월</b>간 다양한 현장에서<br>
+  총 <b>5년+</b>간 다양한 현장에서<br>
   <b>금융권 AI 챗봇 시스템과 MSA 기반 엔터프라이즈 플랫폼</b> 개발을 담당해왔습니다.<br>
   <b>문제를 해결하기 위해 무엇이든 최선을 다하는 자세</b>를 바탕으로,<br>
   Java, Spring, Redis, Kubernetes, WebFlux 등 다양한 스택을 활용해<br>
