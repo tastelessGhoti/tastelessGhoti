@@ -122,7 +122,6 @@
     <img src="https://img.shields.io/badge/Lucy%20XSS%20Servlet-2563EB?style=flat-square&logoColor=white"/>
     <img src="https://img.shields.io/badge/Jasypt-15803D?style=flat-square&logoColor=white"/>
     <img src="https://img.shields.io/badge/Jasypt%20Spring%20Boot-166534?style=flat-square&logoColor=white"/>
-    <img src="https://img.shields.io/badge/KNCrypto-7C3AED?style=flat-square&logoColor=white"/>
     <img src="https://img.shields.io/badge/RSA-0F766E?style=flat-square&logoColor=white"/>
     <img src="https://img.shields.io/badge/Kakao%20Maps%20API-FFCD00?style=flat-square&logo=kakaotalk&logoColor=3C1E1E"/>
     <img src="https://img.shields.io/badge/TMS%20API-7C2D12?style=flat-square&logoColor=white"/>
