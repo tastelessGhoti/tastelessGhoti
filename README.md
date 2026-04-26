@@ -66,11 +66,13 @@
     <img src="https://img.shields.io/badge/MariaDB-003545?style=flat-square&logo=mariadb&logoColor=white"/>
     <img src="https://img.shields.io/badge/Oracle-F80000?style=flat-square&logo=oracle&logoColor=white"/>
     <img src="https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white"/>
+    <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white"/>
     <img src="https://img.shields.io/badge/Amazon%20Aurora-527FFF?style=flat-square&logo=amazonrds&logoColor=white"/>
     <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white"/>
     <img src="https://img.shields.io/badge/Redisson-B91C1C?style=flat-square&logo=redis&logoColor=white"/>
     <img src="https://img.shields.io/badge/OpenSearch-005EB8?style=flat-square&logo=opensearch&logoColor=white"/>
     <img src="https://img.shields.io/badge/Elasticsearch-005571?style=flat-square&logo=elasticsearch&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Apache%20Solr-D9411E?style=flat-square&logo=apachesolr&logoColor=white"/>
   </p>
 </details>
 
