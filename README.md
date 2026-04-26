@@ -26,23 +26,18 @@
     <img src="https://img.shields.io/badge/Spring%20Framework-6DB33F?style=flat-square&logo=spring&logoColor=white"/>
     <img src="https://img.shields.io/badge/Spring%20MVC-6DB33F?style=flat-square&logo=spring&logoColor=white"/>
     <img src="https://img.shields.io/badge/Spring%20Cloud-6DB33F?style=flat-square&logo=spring&logoColor=white"/>
-    <img src="https://img.shields.io/badge/Spring%20Cloud%20Config-6DB33F?style=flat-square&logo=spring&logoColor=white"/>
-    <img src="https://img.shields.io/badge/Eureka-6DB33F?style=flat-square&logo=spring&logoColor=white"/>
     <img src="https://img.shields.io/badge/Spring%20WebFlux-6DB33F?style=flat-square&logo=spring&logoColor=white"/>
     <img src="https://img.shields.io/badge/Spring%20WebSocket-6DB33F?style=flat-square&logo=spring&logoColor=white"/>
     <img src="https://img.shields.io/badge/Spring%20Batch-6DB33F?style=flat-square&logo=spring&logoColor=white"/>
     <img src="https://img.shields.io/badge/Spring%20Scheduler-6DB33F?style=flat-square&logo=spring&logoColor=white"/>
-    <img src="https://img.shields.io/badge/Spring%20Interceptor-6DB33F?style=flat-square&logo=spring&logoColor=white"/>
     <img src="https://img.shields.io/badge/Spring%20Security-6DB33F?style=flat-square&logo=springsecurity&logoColor=white"/>
     <img src="https://img.shields.io/badge/Spring%20Data%20JPA-6DB33F?style=flat-square&logo=spring&logoColor=white"/>
-    <img src="https://img.shields.io/badge/Spring%20JDBC-6DB33F?style=flat-square&logo=spring&logoColor=white"/>
     <img src="https://img.shields.io/badge/Hibernate-59666C?style=flat-square&logo=hibernate&logoColor=white"/>
     <img src="https://img.shields.io/badge/MyBatis-000000?style=flat-square&logoColor=white"/>
     <img src="https://img.shields.io/badge/iBATIS-4B5563?style=flat-square&logoColor=white"/>
     <img src="https://img.shields.io/badge/QueryDSL-0769AD?style=flat-square&logoColor=white"/>
     <img src="https://img.shields.io/badge/Apache%20Tomcat-F8DC75?style=flat-square&logo=apachetomcat&logoColor=black"/>
     <img src="https://img.shields.io/badge/JBoss%20%2F%20LENA%20WAS-A30000?style=flat-square&logo=redhat&logoColor=white"/>
-    <img src="https://img.shields.io/badge/Undertow-7C3AED?style=flat-square&logoColor=white"/>
     <img src="https://img.shields.io/badge/Netflix%20Zuul-E50914?style=flat-square&logo=netflix&logoColor=white"/>
     <img src="https://img.shields.io/badge/CometD-2563EB?style=flat-square&logoColor=white"/>
     <img src="https://img.shields.io/badge/ZooKeeper-D97706?style=flat-square&logo=apache&logoColor=white"/>
@@ -71,13 +66,11 @@
     <img src="https://img.shields.io/badge/MariaDB-003545?style=flat-square&logo=mariadb&logoColor=white"/>
     <img src="https://img.shields.io/badge/Oracle-F80000?style=flat-square&logo=oracle&logoColor=white"/>
     <img src="https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white"/>
-    <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white"/>
     <img src="https://img.shields.io/badge/Amazon%20Aurora-527FFF?style=flat-square&logo=amazonrds&logoColor=white"/>
     <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white"/>
     <img src="https://img.shields.io/badge/Redisson-B91C1C?style=flat-square&logo=redis&logoColor=white"/>
     <img src="https://img.shields.io/badge/OpenSearch-005EB8?style=flat-square&logo=opensearch&logoColor=white"/>
     <img src="https://img.shields.io/badge/Elasticsearch-005571?style=flat-square&logo=elasticsearch&logoColor=white"/>
-    <img src="https://img.shields.io/badge/Apache%20Solr-D9411E?style=flat-square&logo=apachesolr&logoColor=white"/>
   </p>
 </details>
 
@@ -89,14 +82,12 @@
     <img src="https://img.shields.io/badge/Docker%20Compose-1D63ED?style=flat-square&logo=docker&logoColor=white"/>
     <img src="https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white"/>
     <img src="https://img.shields.io/badge/Amazon%20EC2-FF9900?style=flat-square&logo=amazonec2&logoColor=white"/>
-    <img src="https://img.shields.io/badge/CloudFront-8C4FFF?style=flat-square&logo=amazonaws&logoColor=white"/>
     <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white"/>
     <img src="https://img.shields.io/badge/GitLab-FC6D26?style=flat-square&logo=gitlab&logoColor=white"/>
     <img src="https://img.shields.io/badge/SVN-809CC9?style=flat-square&logo=subversion&logoColor=white"/>
     <img src="https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white"/>
     <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black"/>
     <img src="https://img.shields.io/badge/CentOS-262577?style=flat-square&logo=centos&logoColor=white"/>
-    <img src="https://img.shields.io/badge/RHEL7-EE0000?style=flat-square&logo=redhat&logoColor=white"/>
   </p>
 </details>
 
@@ -110,25 +101,16 @@
     <img src="https://img.shields.io/badge/Zipkin-111827?style=flat-square&logoColor=white"/>
     <img src="https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white"/>
     <img src="https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white"/>
-    <img src="https://img.shields.io/badge/Micrometer-10B981?style=flat-square&logoColor=white"/>
-    <img src="https://img.shields.io/badge/DataDog-632CA6?style=flat-square&logo=datadog&logoColor=white"/>
   </p>
 </details>
 
 <details open>
   <summary><strong>✨ Security & External Integration</strong></summary>
   <p>
-    <img src="https://img.shields.io/badge/Lucy%20XSS%20Filter-1D4ED8?style=flat-square&logoColor=white"/>
-    <img src="https://img.shields.io/badge/Lucy%20XSS%20Servlet-2563EB?style=flat-square&logoColor=white"/>
-    <img src="https://img.shields.io/badge/CORS%20Filter-2563EB?style=flat-square&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Lucy%20XSS-1D4ED8?style=flat-square&logoColor=white"/>
     <img src="https://img.shields.io/badge/Jasypt-15803D?style=flat-square&logoColor=white"/>
-    <img src="https://img.shields.io/badge/Jasypt%20Spring%20Boot-166534?style=flat-square&logoColor=white"/>
-    <img src="https://img.shields.io/badge/RSA-0F766E?style=flat-square&logoColor=white"/>
     <img src="https://img.shields.io/badge/Apache%20HttpClient-D22128?style=flat-square&logo=apache&logoColor=white"/>
     <img src="https://img.shields.io/badge/Kakao%20Maps%20API-FFCD00?style=flat-square&logo=kakaotalk&logoColor=3C1E1E"/>
-    <img src="https://img.shields.io/badge/TMS%20API-7C2D12?style=flat-square&logoColor=white"/>
-    <img src="https://img.shields.io/badge/GetSmart%20API-9333EA?style=flat-square&logoColor=white"/>
-    <img src="https://img.shields.io/badge/U.STRA%20TALK-DB2777?style=flat-square&logoColor=white"/>
     <img src="https://img.shields.io/badge/ShedLock-0F172A?style=flat-square&logoColor=white"/>
   </p>
 </details>
@@ -137,11 +119,8 @@
   <summary><strong>✨ Enterprise & Legacy Experience</strong></summary>
   <p>
     <img src="https://img.shields.io/badge/DevOn%20Framework-1E3A8A?style=flat-square&logoColor=white"/>
-    <img src="https://img.shields.io/badge/VMware%20API-607078?style=flat-square&logo=vmware&logoColor=white"/>
     <img src="https://img.shields.io/badge/vCenter-607078?style=flat-square&logo=vmware&logoColor=white"/>
-    <img src="https://img.shields.io/badge/vSphere%20Automation%20SDK-607078?style=flat-square&logo=vmware&logoColor=white"/>
     <img src="https://img.shields.io/badge/vRealize%20Orchestrator-4B5563?style=flat-square&logo=vmware&logoColor=white"/>
-    <img src="https://img.shields.io/badge/VMware%20vRO%20SDK-4B5563?style=flat-square&logo=vmware&logoColor=white"/>
     <img src="https://img.shields.io/badge/vRealize%20Operations-4B5563?style=flat-square&logo=vmware&logoColor=white"/>
     <img src="https://img.shields.io/badge/NSX--T-607078?style=flat-square&logo=vmware&logoColor=white"/>
     <img src="https://img.shields.io/badge/PowerFlex%20API-006BB6?style=flat-square&logo=dell&logoColor=white"/>
@@ -163,7 +142,6 @@
   <p>
     <img src="https://img.shields.io/badge/Gradle-02303A?style=flat-square&logo=gradle&logoColor=white"/>
     <img src="https://img.shields.io/badge/Maven-C71A36?style=flat-square&logo=apachemaven&logoColor=white"/>
-    <img src="https://img.shields.io/badge/Lombok-BC4521?style=flat-square&logoColor=white"/>
     <img src="https://img.shields.io/badge/IntelliJ%20IDEA-000000?style=flat-square&logo=intellijidea&logoColor=white"/>
     <img src="https://img.shields.io/badge/Eclipse-2C2255?style=flat-square&logo=eclipse&logoColor=white"/>
     <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white"/>
