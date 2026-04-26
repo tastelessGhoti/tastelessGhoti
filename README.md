@@ -71,6 +71,7 @@
     <img src="https://img.shields.io/badge/Redisson-B91C1C?style=flat-square&logo=redis&logoColor=white"/>
     <img src="https://img.shields.io/badge/OpenSearch-005EB8?style=flat-square&logo=opensearch&logoColor=white"/>
     <img src="https://img.shields.io/badge/Elasticsearch-005571?style=flat-square&logo=elasticsearch&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Apache%20Solr-D9411E?style=flat-square&logo=apachesolr&logoColor=white"/>
   </p>
 </details>
 
