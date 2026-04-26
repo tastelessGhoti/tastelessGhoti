@@ -22,7 +22,6 @@
 ---
 
 ## 🛠️ Tech & Tools
-
 <details open>
   <summary><strong>✨ Languages</strong></summary>
   <p>
@@ -33,14 +32,17 @@
 </details>
 
 <details open>
-  <summary><strong>✨ Backend & Runtime</strong></summary>
+  <summary><strong>✨ Core Backend & Runtime</strong></summary>
   <p>
+    <img src="https://img.shields.io/badge/REST%20API-0052CC?style=flat-square&logo=postman&logoColor=white"/>
     <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white"/>
     <img src="https://img.shields.io/badge/Spring%20Framework-6DB33F?style=flat-square&logo=spring&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Spring%20MVC-6DB33F?style=flat-square&logo=spring&logoColor=white"/>
     <img src="https://img.shields.io/badge/Spring%20Cloud-6DB33F?style=flat-square&logo=spring&logoColor=white"/>
     <img src="https://img.shields.io/badge/Spring%20WebFlux-6DB33F?style=flat-square&logo=spring&logoColor=white"/>
     <img src="https://img.shields.io/badge/Spring%20WebSocket-6DB33F?style=flat-square&logo=spring&logoColor=white"/>
     <img src="https://img.shields.io/badge/Spring%20Batch-6DB33F?style=flat-square&logo=spring&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Spring%20Scheduler-6DB33F?style=flat-square&logo=spring&logoColor=white"/>
     <img src="https://img.shields.io/badge/Spring%20Security-6DB33F?style=flat-square&logo=springsecurity&logoColor=white"/>
     <img src="https://img.shields.io/badge/Spring%20Data%20JPA-6DB33F?style=flat-square&logo=spring&logoColor=white"/>
     <img src="https://img.shields.io/badge/Hibernate-59666C?style=flat-square&logo=hibernate&logoColor=white"/>
@@ -70,7 +72,7 @@
 </details>
 
 <details open>
-  <summary><strong>✨ Databases & Cache</strong></summary>
+  <summary><strong>✨ Databases, Cache & Search</strong></summary>
   <p>
     <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/>
     <img src="https://img.shields.io/badge/MariaDB-003545?style=flat-square&logo=mariadb&logoColor=white"/>
@@ -79,6 +81,8 @@
     <img src="https://img.shields.io/badge/Amazon%20Aurora-527FFF?style=flat-square&logo=amazonrds&logoColor=white"/>
     <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white"/>
     <img src="https://img.shields.io/badge/Redisson-B91C1C?style=flat-square&logo=redis&logoColor=white"/>
+    <img src="https://img.shields.io/badge/OpenSearch-005EB8?style=flat-square&logo=opensearch&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Elasticsearch-005571?style=flat-square&logo=elasticsearch&logoColor=white"/>
   </p>
 </details>
 
@@ -98,20 +102,21 @@
     <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black"/>
     <img src="https://img.shields.io/badge/CentOS-262577?style=flat-square&logo=centos&logoColor=white"/>
     <img src="https://img.shields.io/badge/RHEL7-EE0000?style=flat-square&logo=redhat&logoColor=white"/>
-    <img src="https://img.shields.io/badge/DataDog-632CA6?style=flat-square&logo=datadog&logoColor=white"/>
   </p>
 </details>
 
 <details open>
-  <summary><strong>✨ Search, Logging & Observability</strong></summary>
+  <summary><strong>✨ Logging & Observability</strong></summary>
   <p>
-    <img src="https://img.shields.io/badge/OpenSearch-005EB8?style=flat-square&logo=opensearch&logoColor=white"/>
-    <img src="https://img.shields.io/badge/Elasticsearch-005571?style=flat-square&logo=elasticsearch&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Logback-111827?style=flat-square&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Log4j-CB0000?style=flat-square&logo=apache&logoColor=white"/>
     <img src="https://img.shields.io/badge/Logstash-005571?style=flat-square&logo=logstash&logoColor=white"/>
     <img src="https://img.shields.io/badge/Kibana-005571?style=flat-square&logo=kibana&logoColor=white"/>
     <img src="https://img.shields.io/badge/Zipkin-111827?style=flat-square&logoColor=white"/>
     <img src="https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white"/>
     <img src="https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Micrometer-10B981?style=flat-square&logoColor=white"/>
+    <img src="https://img.shields.io/badge/DataDog-632CA6?style=flat-square&logo=datadog&logoColor=white"/>
   </p>
 </details>
 
@@ -123,6 +128,7 @@
     <img src="https://img.shields.io/badge/Jasypt-15803D?style=flat-square&logoColor=white"/>
     <img src="https://img.shields.io/badge/Jasypt%20Spring%20Boot-166534?style=flat-square&logoColor=white"/>
     <img src="https://img.shields.io/badge/RSA-0F766E?style=flat-square&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Apache%20HttpClient-D22128?style=flat-square&logo=apache&logoColor=white"/>
     <img src="https://img.shields.io/badge/Kakao%20Maps%20API-FFCD00?style=flat-square&logo=kakaotalk&logoColor=3C1E1E"/>
     <img src="https://img.shields.io/badge/TMS%20API-7C2D12?style=flat-square&logoColor=white"/>
     <img src="https://img.shields.io/badge/GetSmart%20API-9333EA?style=flat-square&logoColor=white"/>
@@ -136,8 +142,13 @@
   <p>
     <img src="https://img.shields.io/badge/DevOn%20Framework-1E3A8A?style=flat-square&logoColor=white"/>
     <img src="https://img.shields.io/badge/VMware%20API-607078?style=flat-square&logo=vmware&logoColor=white"/>
+    <img src="https://img.shields.io/badge/vCenter-607078?style=flat-square&logo=vmware&logoColor=white"/>
     <img src="https://img.shields.io/badge/vRealize%20Orchestrator-4B5563?style=flat-square&logo=vmware&logoColor=white"/>
+    <img src="https://img.shields.io/badge/vRealize%20Operations-4B5563?style=flat-square&logo=vmware&logoColor=white"/>
+    <img src="https://img.shields.io/badge/NSX--T-607078?style=flat-square&logo=vmware&logoColor=white"/>
     <img src="https://img.shields.io/badge/PowerFlex%20API-006BB6?style=flat-square&logo=dell&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Apache%20POI-D22128?style=flat-square&logo=apache&logoColor=white"/>
+    <img src="https://img.shields.io/badge/JXLS-4B5563?style=flat-square&logoColor=white"/>
   </p>
 </details>
 
@@ -154,12 +165,12 @@
   <p>
     <img src="https://img.shields.io/badge/Gradle-02303A?style=flat-square&logo=gradle&logoColor=white"/>
     <img src="https://img.shields.io/badge/Maven-C71A36?style=flat-square&logo=apachemaven&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Lombok-BC4521?style=flat-square&logoColor=white"/>
     <img src="https://img.shields.io/badge/IntelliJ%20IDEA-000000?style=flat-square&logo=intellijidea&logoColor=white"/>
     <img src="https://img.shields.io/badge/Eclipse-2C2255?style=flat-square&logo=eclipse&logoColor=white"/>
     <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white"/>
   </p>
 </details>
-
 ---
 
 ## 🏆 Awards & Certifications
