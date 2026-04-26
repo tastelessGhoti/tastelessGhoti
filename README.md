@@ -1,22 +1,10 @@
 
 <h2 align="center">안녕하세요, 백엔드 개발자 Ghoti입니다 <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28"></h2>
 <p align="center">
-  총 <b>5년+</b>간 다양한 현장에서<br>
-  <b>금융권 AI 챗봇 시스템과 MSA 기반 엔터프라이즈 플랫폼</b> 개발을 담당해왔습니다.<br>
+  총 <b>6년+</b>간 다양한 현장에서<br>
   <b>문제를 해결하기 위해 무엇이든 최선을 다하는 자세</b>를 바탕으로,<br>
   Java, Spring, Redis, Kubernetes, WebFlux, Spring Cloud 등 다양한 스택을 활용해<br>
   안정적이고 확장 가능한 서비스를 만드는 데 집중하고 있습니다.<br><br>
-  <b>🏆 주요 성과</b><br>
-  • 경남은행 AI 챗봇: 6개월간 <b>293개 커밋, 92,460 라인</b> 기여<br>
-  • Redis 캐싱으로 API 응답시간 <b>43% 개선</b> (832ms → 475ms)<br>
-  • <b>KOTRA 사장상</b> 수상 (4차 산업혁명 선도 소비재 융합제품 경진대회)<br><br>
-  <em>"더 나은 코드를 통해, 더 많은 가치를 만들어내는 개발자"</em>를 지향합니다.
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Domain-Financial%20AI%20%26%20Enterprise-0F172A?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Focus-Realtime%20%7C%20Security%20%7C%20Integration-1D4ED8?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Strength-Legacy%20to%20Modern%20Migration-059669?style=for-the-badge"/>
 </p>
 
 ---
