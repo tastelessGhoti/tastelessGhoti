@@ -16,12 +16,19 @@
 - ShedLock과 Redis ZSET 기반 만료 처리, 권한 기반 QueryDSL 조회를 구현했습니다.
 - Redis 5에서 7로 전환 절차·검증·원복 계획을 정리하고 적용을 지원했으며, Solr Analysis 검증관리, API 이력의 시각·소요시간 오류와 CMS JSON 가져오기를 보강했습니다.
 
+## Why Hire Me
+
+- **운영까지 책임지는 백엔드 개발자:** 구현에 그치지 않고 원인 분석, 배포, 복구, 검증까지 이어지는 실무 경험이 있습니다.
+- **실시간·분산 상태 관리 경험:** Redis 기반 세션·동시성 제어, WebSocket 연결 생명주기와 멀티 인스턴스 동작을 다뤘습니다.
+- **금융/AICC 환경의 제약 이해:** 데이터 정합성, 보안, 외부 연동, 운영 안정성을 함께 고려해 구현합니다.
+- **근거 중심의 문제 해결:** 재색인, 건수·해시 검증, 원복 절차처럼 결과를 재현하고 확인할 수 있는 방식으로 문제를 해결합니다.
+
+
 ---
 
 ## 🛠️ Tech & Tools
 
-기본 이력서·경력기술서·포트폴리오와 동일한 Core 기술을 먼저 표시합니다.
-전체 inventory는 프로젝트 경험 키워드이며 숙련도 등급이 아닙니다.
+
 
 <!-- CANONICAL_TECH_INVENTORY:START -->
 <!-- inventory_count: 113 -->
@@ -42,7 +49,7 @@
 <!-- skill: MyBatis -->
 <img src="https://img.shields.io/badge/MyBatis-000000?style=flat-square&logoColor=white"/>
 <!-- skill: JPA -->
-`JPA`
+<img alt="JPA" src="https://img.shields.io/badge/JPA-59666C?style=flat-square&logo=hibernate&logoColor=white"/>
 <!-- skill: QueryDSL -->
 <img src="https://img.shields.io/badge/QueryDSL-0769AD?style=flat-square&logoColor=white"/>
 <!-- skill: Spring Batch -->
@@ -57,21 +64,21 @@
 <!-- skill: Redis -->
 <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white"/>
 <!-- skill: Spring Data Redis -->
-`Spring Data Redis`
+<img alt="Spring Data Redis" src="https://img.shields.io/badge/Spring%20Data%20Redis-6DB33F?style=flat-square&logo=spring&logoColor=white"/>
 <!-- skill: ReactiveRedisTemplate -->
-`ReactiveRedisTemplate`
+<img alt="ReactiveRedisTemplate" src="https://img.shields.io/badge/ReactiveRedisTemplate-DC382D?style=flat-square&logo=redis&logoColor=white"/>
 <!-- skill: WebSocket -->
-`WebSocket`
+<img alt="WebSocket" src="https://img.shields.io/badge/WebSocket-111827?style=flat-square&logoColor=white"/>
 <!-- skill: STOMP -->
-`STOMP`
+<img alt="STOMP" src="https://img.shields.io/badge/STOMP-6D28D9?style=flat-square&logoColor=white"/>
 <!-- skill: CometD -->
 <img src="https://img.shields.io/badge/CometD-2563EB?style=flat-square&logoColor=white"/>
 <!-- skill: Distributed Lock -->
-`Distributed Lock`
+<img alt="Distributed Lock" src="https://img.shields.io/badge/Distributed%20Lock-0F172A?style=flat-square&logoColor=white"/>
 <!-- skill: ShedLock -->
 <img src="https://img.shields.io/badge/ShedLock-0F172A?style=flat-square&logoColor=white"/>
 <!-- skill: Redis ZSET -->
-`Redis ZSET`
+<img alt="Redis ZSET" src="https://img.shields.io/badge/Redis%20ZSET-DC382D?style=flat-square&logo=redis&logoColor=white"/>
 </p>
 
 #### Data & Ops
@@ -114,8 +121,7 @@
 <img src="https://img.shields.io/badge/Apache%20JMeter-D22128?style=flat-square&logo=apache&logoColor=white"/>
 </p>
 
-<details>
-<summary><strong>Full Experience Inventory - Additional 80</strong></summary>
+### Full Experience Inventory - Additional 80
 
 #### Languages
 
@@ -134,7 +140,7 @@
 <!-- skill: Spring WebSocket -->
 <img src="https://img.shields.io/badge/Spring%20WebSocket-6DB33F?style=flat-square&logo=spring&logoColor=white"/>
 <!-- skill: Spring Messaging -->
-`Spring Messaging`
+<img alt="Spring Messaging" src="https://img.shields.io/badge/Spring%20Messaging-6DB33F?style=flat-square&logo=spring&logoColor=white"/>
 <!-- skill: Spring Scheduler -->
 <img src="https://img.shields.io/badge/Spring%20Scheduler-6DB33F?style=flat-square&logo=spring&logoColor=white"/>
 <!-- skill: Spring Security -->
@@ -146,11 +152,11 @@
 <!-- skill: iBATIS -->
 <img src="https://img.shields.io/badge/iBATIS-4B5563?style=flat-square&logoColor=white"/>
 <!-- skill: Reactor -->
-`Reactor`
+<img alt="Reactor" src="https://img.shields.io/badge/Project%20Reactor-6DB33F?style=flat-square&logo=reactivex&logoColor=white"/>
 <!-- skill: Apache Tomcat -->
 <img src="https://img.shields.io/badge/Apache%20Tomcat-F8DC75?style=flat-square&logo=apachetomcat&logoColor=black"/>
 <!-- skill: Undertow -->
-`Undertow`
+<img alt="Undertow" src="https://img.shields.io/badge/Undertow-1F2937?style=flat-square&logoColor=white"/>
 <!-- skill: JBoss / LENA WAS -->
 <img src="https://img.shields.io/badge/JBoss%20%2F%20LENA%20WAS-A30000?style=flat-square&logo=redhat&logoColor=white"/>
 <!-- skill: Netflix Zuul -->
@@ -192,13 +198,13 @@
 <!-- skill: Amazon Aurora -->
 <img src="https://img.shields.io/badge/Amazon%20Aurora-527FFF?style=flat-square&logo=amazonrds&logoColor=white"/>
 <!-- skill: Reactive Redis -->
-`Reactive Redis`
+<img alt="Reactive Redis" src="https://img.shields.io/badge/Reactive%20Redis-DC382D?style=flat-square&logo=redis&logoColor=white"/>
 <!-- skill: Redis TTL -->
-`Redis TTL`
+<img alt="Redis TTL" src="https://img.shields.io/badge/Redis%20TTL-DC382D?style=flat-square&logo=redis&logoColor=white"/>
 <!-- skill: Redis SETNX -->
-`Redis SETNX`
+<img alt="Redis SETNX" src="https://img.shields.io/badge/Redis%20SETNX-DC382D?style=flat-square&logo=redis&logoColor=white"/>
 <!-- skill: Lua script -->
-`Lua script`
+<img alt="Lua script" src="https://img.shields.io/badge/Lua%20Script-2C2D72?style=flat-square&logo=lua&logoColor=white"/>
 <!-- skill: Redisson -->
 <img src="https://img.shields.io/badge/Redisson-B91C1C?style=flat-square&logo=redis&logoColor=white"/>
 <!-- skill: Elasticsearch -->
@@ -206,7 +212,7 @@
 <!-- skill: Apache Solr -->
 <img src="https://img.shields.io/badge/Apache%20Solr-D9411E?style=flat-square&logo=apachesolr&logoColor=white"/>
 <!-- skill: SolrJ -->
-`SolrJ`
+<img alt="SolrJ" src="https://img.shields.io/badge/SolrJ-D9411E?style=flat-square&logo=apachesolr&logoColor=white"/>
 </p>
 
 #### Infra, DevOps & Platform
@@ -217,17 +223,17 @@
 <!-- skill: Amazon EC2 -->
 <img src="https://img.shields.io/badge/Amazon%20EC2-FF9900?style=flat-square&logo=amazonec2&logoColor=white"/>
 <!-- skill: CloudFront -->
-`CloudFront`
+<img alt="Amazon CloudFront" src="https://img.shields.io/badge/Amazon%20CloudFront-8C4FFF?style=flat-square&logo=amazonwebservices&logoColor=white"/>
 <!-- skill: GitLab -->
 <img src="https://img.shields.io/badge/GitLab-FC6D26?style=flat-square&logo=gitlab&logoColor=white"/>
 <!-- skill: SVN -->
 <img src="https://img.shields.io/badge/SVN-809CC9?style=flat-square&logo=subversion&logoColor=white"/>
 <!-- skill: RHEL 7 -->
-`RHEL 7`
+<img alt="RHEL 7" src="https://img.shields.io/badge/RHEL%207-EE0000?style=flat-square&logo=redhat&logoColor=white"/>
 <!-- skill: CentOS -->
 <img src="https://img.shields.io/badge/CentOS-262577?style=flat-square&logo=centos&logoColor=white"/>
 <!-- skill: Bash / Shell Script -->
-`Bash / Shell Script`
+<img alt="Bash / Shell Script" src="https://img.shields.io/badge/Bash%20%2F%20Shell%20Script-4EAA25?style=flat-square&logo=gnubash&logoColor=white"/>
 </p>
 
 #### Logging & Observability
@@ -246,7 +252,7 @@
 <!-- skill: Grafana -->
 <img src="https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white"/>
 <!-- skill: Datadog -->
-`Datadog`
+<img alt="Datadog" src="https://img.shields.io/badge/Datadog-632CA6?style=flat-square&logo=datadog&logoColor=white"/>
 </p>
 
 #### Security & External Integration
@@ -257,33 +263,33 @@
 <!-- skill: Jasypt -->
 <img src="https://img.shields.io/badge/Jasypt-15803D?style=flat-square&logoColor=white"/>
 <!-- skill: JWT -->
-`JWT`
+<img alt="JWT" src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white"/>
 <!-- skill: RSA -->
-`RSA`
+<img alt="RSA" src="https://img.shields.io/badge/RSA-334155?style=flat-square&logoColor=white"/>
 <!-- skill: Apache HttpClient -->
 <img src="https://img.shields.io/badge/Apache%20HttpClient-D22128?style=flat-square&logo=apache&logoColor=white"/>
 <!-- skill: Kakao API -->
-`Kakao API`
+<img alt="Kakao API" src="https://img.shields.io/badge/Kakao%20API-FFCD00?style=flat-square&logo=kakaotalk&logoColor=3C1E1E"/>
 <!-- skill: Kakao Maps API -->
 <img src="https://img.shields.io/badge/Kakao%20Maps%20API-FFCD00?style=flat-square&logo=kakaotalk&logoColor=3C1E1E"/>
 <!-- skill: Spectra -->
-`Spectra`
+<img alt="Spectra" src="https://img.shields.io/badge/Spectra-475569?style=flat-square&logoColor=white"/>
 <!-- skill: REST 콜백 -->
-`REST 콜백`
+<img alt="REST 콜백" src="https://img.shields.io/badge/REST%20Callback-0052CC?style=flat-square&logo=postman&logoColor=white"/>
 <!-- skill: WebSocket 푸시 -->
-`WebSocket 푸시`
+<img alt="WebSocket 푸시" src="https://img.shields.io/badge/WebSocket%20Push-111827?style=flat-square&logoColor=white"/>
 <!-- skill: Polling -->
-`Polling`
+<img alt="Polling" src="https://img.shields.io/badge/Polling-2563EB?style=flat-square&logoColor=white"/>
 <!-- skill: TMS API -->
-`TMS API`
+<img alt="TMS API" src="https://img.shields.io/badge/TMS%20API-0F766E?style=flat-square&logoColor=white"/>
 <!-- skill: GetSmart API -->
-`GetSmart API`
+<img alt="GetSmart API" src="https://img.shields.io/badge/GetSmart%20API-4338CA?style=flat-square&logoColor=white"/>
 <!-- skill: U.STRA TALK -->
-`U.STRA TALK`
+<img alt="U.STRA TALK" src="https://img.shields.io/badge/U.STRA%20TALK-7C3AED?style=flat-square&logoColor=white"/>
 <!-- skill: Multi-instance Session Management -->
-`Multi-instance Session Management`
+<img alt="Multi-instance Session Management" src="https://img.shields.io/badge/Multi--instance%20Session%20Management-1E40AF?style=flat-square&logoColor=white"/>
 <!-- skill: Session Lifecycle Management -->
-`Session Lifecycle Management`
+<img alt="Session Lifecycle Management" src="https://img.shields.io/badge/Session%20Lifecycle%20Management-0F766E?style=flat-square&logoColor=white"/>
 </p>
 
 #### Enterprise & Legacy Experience
@@ -302,7 +308,7 @@
 <!-- skill: PowerFlex API -->
 <img src="https://img.shields.io/badge/PowerFlex%20API-006BB6?style=flat-square&logo=dell&logoColor=white"/>
 <!-- skill: VMware API -->
-`VMware API`
+<img alt="VMware API" src="https://img.shields.io/badge/VMware%20API-607078?style=flat-square&logo=vmware&logoColor=white"/>
 <!-- skill: Apache POI -->
 <img src="https://img.shields.io/badge/Apache%20POI-D22128?style=flat-square&logo=apache&logoColor=white"/>
 <!-- skill: JXLS -->
@@ -326,8 +332,6 @@
 <!-- skill: VS Code -->
 <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white"/>
 </p>
-
-</details>
 
 <!-- CANONICAL_TECH_INVENTORY:END -->
 
@@ -355,7 +359,6 @@
 ### 📜 자격증
 | 자격 | 일자 | 발급기관 |
 |---|---|---|
-| 정보처리산업기사 필기 합격 | 2018.05 | 한국산업인력공단 |
 | 정보기기운용기능사 | 2016.07 | 한국산업인력공단 |
 | 워드프로세서 | 2014.08 | 대한상공회의소 |
 | 리눅스마스터 2급 | 2014.07 | 한국정보통신인력개발센터 |
