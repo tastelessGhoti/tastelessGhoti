@@ -14,7 +14,7 @@
 - 일회용 진입 토큰, Redis 세션 바인딩·재사용·복구와 실시간 상담·상담이력 API를 구현하고 배포 후 동작을 검증했습니다.
 - OpenSearch·Logstash 장애 연결을 분석하고 재색인·건수·해시 검증·원복을 거쳐 서비스 복구를 수행했습니다.
 - ShedLock과 Redis ZSET 기반 만료 처리, 권한 기반 QueryDSL 조회를 구현했습니다.
-- Redis 5에서 7로 전환 절차·검증·원복 계획을 정리하고 적용을 지원했으며, Solr Analysis 검증관리, API 이력의 시각·소요시간 오류와 CMS JSON 가져오기를 보강했습니다.
+- Redis 5에서 7로 전환 절차·검증·원복 계획을 정리하고 적용을 지원했으며, Solr Analysis 검증관리, API 이력의 시각·소요시간 오류와 JSON 가져오기를 보강했습니다.
 
 ## Why Hire Me
 
