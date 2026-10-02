@@ -1,20 +1,20 @@
 <h1 align="center">박한수</h1>
-<p align="center"><b>Java/Spring 백엔드 개발자 · 총 6년 1개월</b></p>
-<p align="center">금융/AICC 환경에서 실시간 상담, 세션·캐시, API·배치와 운영 복구를 다뤄온 총 6년 1개월 경력의 Java/Spring 백엔드 개발자입니다. Redis 기반 멀티 인스턴스 상태 관리, OpenSearch 데이터 복구, 금융권 채널·상담 연동을 구현했고 구축 이후 원인 분석·배포·검증까지 수행했습니다. 데이터 정합성·동시성·보안·운영 제약을 함께 고려합니다.</p>
+<p align="center"><b>Java/Spring 백엔드 개발자 · 총 6년 4개월</b></p>
+<p align="center">금융/AICC 환경에서 실시간 상담, 세션·상태 관리, API·배치와 운영 복구를 다뤄온 총 6년 4개월 경력의 Java/Spring 백엔드 개발자입니다. Redis 기반 멀티 인스턴스 상담 상태와 동시성 흐름, OpenSearch 데이터 정합성·복구 절차, 금융권 채널·상담 연동을 구현·검증했습니다. 분산 상태와 데이터 정합성을 함께 다루는 플랫폼 백엔드 문제에 강점이 있습니다.</p>
 
 ## Engineering Focus
 
-- Redis 기반 멀티 인스턴스 세션·동시성·연결 종료 흐름 구현
-- OpenSearch·Logstash 장애 원인 분석과 데이터 복구·검증 절차 수행
+- Redis 기반 멀티 인스턴스 상담 상태·동시성·연결 종료 흐름 구현
+- 금융 AICC 런타임 검증과 OpenSearch 데이터 복구·lifecycle 검증
 - 금융권 채널·상담·외부 시스템 연동과 보안 요구 반영
 
 ## Selected Engineering Evidence
 
-- 상담 세션과 대기 상태를 Redis 공유 저장소로 전환하고 분산 락과 WebSocket 연결 종료 흐름을 보강해 멀티 인스턴스 동작을 검증했습니다.
-- 일회용 진입 토큰, Redis 세션 바인딩·재사용·복구와 실시간 상담·상담이력 API를 구현하고 배포 후 동작을 검증했습니다.
-- OpenSearch·Logstash 장애 연결을 분석하고 재색인·건수·해시 검증·원복을 거쳐 서비스 복구를 수행했습니다.
-- ShedLock과 Redis ZSET 기반 만료 처리, 권한 기반 QueryDSL 조회를 구현했습니다.
-- Redis 5에서 7로 전환 절차·검증·원복 계획을 정리하고 적용을 지원했으며, Solr Analysis 검증관리, API 이력의 시각·소요시간 오류와 JSON 가져오기를 보강했습니다.
+- Redis 공유 저장소·세션 단위 분산 락·연결 끊김 유예를 적용해 멀티 인스턴스에서도 상담 세션이 한 흐름으로 처리되도록 했고, 상태 전이·종료·TTL 경로를 mock 기반 단위 테스트 88개로 검증했습니다.
+- 일회용 진입 토큰·Redis 세션 바인딩·세션 복구를 구현해 은행 웹·앱에서 들어온 고객의 세션이 챗봇과 상담사 채팅까지 이어지도록 했고, 배포 후 동작을 검증했습니다.
+- 샤드 한도로 적재가 멈춘 날짜의 로그를 개발계 리허설과 건수·해시 검증을 거쳐 운영에 복원했습니다. 별도 인덱스 정리에서는 15개 인덱스 close 후 shard가 3,098에서 3,053으로 줄었음을 확인했습니다.
+- 만료 시각을 Redis ZSET에 두고 ShedLock 스케줄러로 처리해 만료 이벤트를 놓쳐도 세션·URL이 만료되도록 했고, 권한 기반 QueryDSL 조회를 구현했습니다.
+- Redis 5에서 7로 전환 절차·검증·원복 계획을 정리해 적용을 지원했고, MySQL 8.0에서 8.4로의 업그레이드 영향을 Docker로 두 버전을 띄워 재현해 업그레이드 전 확인 사항 2가지로 정리했습니다.
 
 ## Why Hire Me
 
@@ -378,4 +378,4 @@
   <a href="https://gamulgamulgamulchi.tistory.com/">Tistory 기술 기록</a>
 </p>
 
-<p align="center"><a href="mailto:peobae@gmail.com">peobae@gmail.com</a></p>
+<p align="center"><a href="mailto:ghoti.park@gmail.com">ghoti.park@gmail.com</a></p>
