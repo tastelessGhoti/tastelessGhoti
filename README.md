@@ -1,6 +1,6 @@
 <h1 align="center">박한수</h1>
 <p align="center"><b>Java/Spring 백엔드 개발자 · 총 6년 4개월</b></p>
-<p align="center">금융/AICC 환경에서 실시간 상담, 세션·상태 관리, API·배치와 운영 복구를 다뤄온 총 6년 4개월 경력의 Java/Spring 백엔드 개발자입니다. Redis 기반 멀티 인스턴스 상담 상태와 동시성 흐름, OpenSearch 데이터 정합성·복구 절차, 금융권 채널·상담 연동을 구현·검증했습니다. 분산 상태와 데이터 정합성을 함께 다루는 플랫폼 백엔드 문제에 강점이 있습니다.</p>
+<p align="center">총 6년 4개월 경력의 Java/Spring 백엔드 개발자입니다. 금융권 상담·클라우드 운영 포털과 리테일 업무 시스템에서 API·배치·외부 연동을 개발했습니다. 최근에는 Redis 기반 상담 세션의 동시성 제어와 OpenSearch 운영 데이터 복구를 담당했습니다.</p>
 
 ## Engineering Focus
 
