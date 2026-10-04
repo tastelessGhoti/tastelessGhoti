@@ -1,6 +1,6 @@
 <h1 align="center">박한수</h1>
 <p align="center"><b>Java/Spring 백엔드 개발자 · 총 6년 4개월</b></p>
-<p align="center">총 6년 4개월 경력의 Java/Spring 백엔드 개발자입니다. 금융권 상담·클라우드 운영 포털과 리테일 업무 시스템에서 API·배치·외부 연동을 개발했습니다. 최근에는 Redis 기반 상담 세션의 동시성 제어와 OpenSearch 운영 데이터 복구를 담당했습니다.</p>
+<p align="center">총 6년 4개월 경력의 Java/Spring 백엔드 개발자입니다. 금융권 AI 컨택센터와 챗봇, 클라우드 운영 포털, 리테일 업무 시스템에서 API와 배치, 외부 연동을 개발해 왔습니다. 최근에는 여러 서버가 함께 쓰는 상담 세션을 Redis로 관리하며 동시성을 제어했고, OpenSearch에 적재가 멈춘 운영 로그를 복원했습니다.</p>
 
 ## Engineering Focus
 
